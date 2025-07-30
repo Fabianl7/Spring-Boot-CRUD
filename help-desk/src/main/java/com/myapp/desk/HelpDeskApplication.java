@@ -26,27 +26,4 @@ public class HelpDeskApplication {
         SpringApplication.run(HelpDeskApplication.class, args);
     }
 
-//    @Bean
-//    CommandLineRunner commandLineRunner(TicketRepository ticketRepository) {
-//        return args -> {
-//            ticketRepository.save(new Ticket("KeyBoard NotWorking", LocalDateTime.now(),null,null));
-//            ticketRepository.findAll().forEach(System.out::println);
-//        };
-//    }
-
-   // @Bean
-//    CommandLineRunner commandLineRunner(AgentRepository agentRepository) {
-//        return args -> {
-//         Agent agent =   agentRepository.save(new Agent("Agent1"));
-//            System.out.println(agent);
-//        };
-//    }
-//
-//    @Bean
-//    CommandLineRunner ticketService(TicketService ticketService) {
-//        return args -> {
-//            System.out.println(  ticketService.assignAgentToTicket(1L,2L));
-//        };
-//    }
-
 }
